@@ -1,0 +1,40 @@
+// Colours
+
+$black: #1a1a1a;
+$white: #F5F2EE;
+$yellow: #FFD822;
+$orange: #FFAF22;
+
+//Typography
+
+@font-face {
+  font-family: 'FTMade';
+  font-weight: 400;
+  src: url('../assets/fonts/FTMade-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/FTMade-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/FTMade-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'FTBase';
+  font-weight: 400;
+  src: url('../assets/fonts/FTBase-Book.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/FTBase-Book.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/FTBase-Book.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'FTBase';
+  font-weight: 200;
+  src: url('../assets/fonts/FTBase-Light.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/FTBase-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/FTBase-Light.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'FTBase';
+  font-weight: 700;
+  src: url('../assets/fonts/FTBase-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/FTBase-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/FTBase-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+}

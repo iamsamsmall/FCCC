@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+html {
+    background: $white;
+}
+
+body {
+  background: $white;
+  margin: 0;
+  padding: 0;
+  font-family: "FTBase", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.header-wrapper {
+  position: relative;
+  padding: 10em 0;
+  background: $orange;
+  overflow: hidden;
+  @media only screen and (min-width: 800px) {
+    padding: 12em 0;
+  }
+  .circle {
+    position: absolute;
+    top: 50%;
+    margin-top: -500px;
+    left: 50%;
+    margin-left: -500px;
+    z-index: 1;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background: $yellow;
+  }
+  .logo-wrapper {
+    @media only screen and (min-width: 800px) {
+      display: flex;
+    }
+  }
+  .logo-inner-left {
+    @media only screen and (min-width: 800px) {
+      width: 40%;
+    }
+  }
+  .logo-inner-right {
+    position: relative;
+    @media only screen and (min-width: 800px) {
+      width: 60%;
+    }
+  }
+  a.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $black;
+    letter-spacing: -0.05em;
+    font-weight: 200;
+    font-size: 1.2em;
+    @media only screen and (min-width: 380px) {
+      font-size: 3em;
+    }
+    @media only screen and (min-width: 800px) {
+      position: relative;
+      font-size: 4em;
+      top: auto;
+      left: auto;
+      transform: none;
+      margin-left: -1.422em;
+    }
+    .line-1, .line-2, .line-3, .line-4 {
+      display: block;
+    }
+    .line-1 {
+      text-indent: 1.46em;
+    }
+    .line-2, .line-4 {
+      text-indent: 1.422em;
+    }
+  }
+}
+
+nav {
+  line-height: 1.6;
+  padding-left: 2px;
+  a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: $black;
+    letter-spacing: 0.02em;
+    @media only screen and (min-width: 700px) {
+      font-size: 15px;
+    }
+    &:hover {
+      border-bottom: 1px solid #000;
+    }
+  }
+}
+
+.content-section {
+
+  padding: 0.75em 2em;
+  @media only screen and (min-width: 800px) {
+    display: flex;
+    padding: 0.75em 3em;
+  }
+  .title {
+    @media only screen and (min-width: 800px) {
+      width: 40%;
+    }
+    h2 {
+      text-transform: uppercase;
+      font-size: 2.5em;
+      font-weight: normal;
+      letter-spacing: -0.02em;
+      margin: 0.5em 0;
+    }
+  }
+  .body {
+    @media only screen and (min-width: 800px) {
+      width: 60%;
+    }
+    p {
+      font-family: "FTMade", serif;
+      font-size: 1.375em;
+      line-height: 1.4;
+      margin: 1em 0;
+    }
+  }
+}
+
+.list {
+  padding: 0.75em 2em;
+  @media only screen and (min-width: 700px) {
+    padding: 0.75em 3em;
+    margin-bottom: 2em;
+  }
+  ol {
+    list-style-type: none;
+    li {
+      counter-increment: step-counter;
+      width: 100%;
+      border-top: 1px solid $black;
+      padding: 0.75em 0;
+      @media only screen and (min-width: 800px) {
+        padding: 1.25em 0;
+        padding-left: 40%;
+      }
+      &:before {
+        display: block;
+        position: relative;
+        width: 30%;
+        content: counter(step-counter);
+        font-family: "FTBase", sans-serif;
+        font-size: 4em;
+        font-weight: 200;
+        @media only screen and (min-width: 800px) {
+          position: absolute;
+          left: 0;
+          margin-left: 0.75em;
+        }
+      }
+      h3 {
+        font-family: "FTBase", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.4em;
+        letter-spacing: 0.025em;
+        line-height: 1.25;
+        margin-top: 0.5em;
+      }
+      p {
+        font-family: "FTMade", serif;
+        font-size: 1.375em;
+        line-height: 1.4;
+        margin: 1em 0;
+      }
+    }
+  }
+}
+
+#signatories {
+  border-top: 1px solid $black;
+  .body {
+    @media only screen and (min-width: 800px) {
+      width: 60%;
+    }
+    p {
+      font-family: "FTBase", sans-serif;
+      font-size: 2.25em;
+      line-height: 1.4;
+      margin: 0.375em 0 1em;
+    }
+  }
+}
+
+#sign-up {
+  background-color: $yellow;
+  a {
+    display: inline-block;
+    background: $black;
+    padding: 1em 2em;
+    border-radius: 4px;
+    color: $white;
+    font-family: "FTBase", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.875em;
+    letter-spacing: 0.025em;
+    line-height: 1.25;
+    margin-top: 0.5em;
+    text-decoration: none;
+  }
+}
+
+.footer-wrapper {
+  background: $yellow;
+  padding: 2em;
+  overflow: hidden;
+}
+
+footer {
+  border-top: 1px solid $black;
+  padding: 1.5em 0 0;
+  font-family: "FTBase", sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+}

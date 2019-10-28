@@ -38,3 +38,82 @@ $orange: #FFAF22;
   src: url('../assets/fonts/FTBase-Bold.woff2') format('woff2'), /* Super Modern Browsers */
        url('../assets/fonts/FTBase-Bold.woff') format('woff'), /* Pretty Modern Browsers */
 }
+
+@mixin s1 {
+  margin: 1em 0;
+  font-family: "FTMade", serif;
+  font-size: 1.1em;
+  line-height: 1.4;
+  @media only screen and (min-width: 500px) {
+    margin: 1.175em 0;
+    font-size: 1.25em;
+    line-height: 1.6;
+  }
+  @media only screen and (min-width: 1100px) {
+    margin: 1em 0;
+    font-size: 1.375em;
+    line-height: 1.6;
+  }
+}
+
+@mixin s2 {
+  margin-top: 0.4em;
+  font-family: "FTBase", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  line-height: 1.25;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  @media only screen and (min-width: 500px) {
+    font-size: 1.2em;
+    line-height: 1.4;
+  }
+  @media only screen and (min-width: 800px) {
+    font-size: 1.4em;
+    line-height: 1.25;
+  }
+}
+
+@mixin s3 {
+    margin: 0.6em 0;
+    font-family: "FTBase", sans-serif;
+    font-weight: 400;
+    font-size: 1.675em;
+    line-height: 1.25;
+    text-transform: uppercase;
+    @media only screen and (min-width: 500px) {
+      font-size: 2em;
+      line-height: 1;
+    }
+    @media only screen and (min-width: 800px) {
+      font-size: 2.5em;
+      line-height: 1;
+    }
+}
+
+@mixin s4 {
+  margin: 0.875em 0;
+  font-family: "FTBase", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.125;
+  @media only screen and (min-width: 500px) {
+    margin: 1em 0;
+    font-size: 1.675em;
+    line-height: 1.125;
+  }
+  @media only screen and (min-width: 800px) {
+    margin: 0.675em 0 1em;
+    font-size: 2.25em;
+    line-height: 1.125;
+  }
+}
+
+@mixin s5 {
+  font-family: "FTBase", sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  @media only screen and (min-width: 500px) {
+    font-size: 1.125em;
+  }
+}

@@ -29,16 +29,27 @@ body {
   .circle {
     position: absolute;
     top: 50%;
-    margin-top: -500px;
     left: 50%;
-    margin-left: -500px;
+    transform: translate(-50%, -50%);
+    transform-origin: 0% 0%;
     z-index: 1;
-    width: 1000px;
-    height: 1000px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background: $yellow;
+    @media only screen and (min-width: 380px) {
+        transform: scale(1.4) translate(-50%, -50%);
+    }
+    @media only screen and (min-width: 800px) {
+      transform: scale(2.25) translate(-50%, -50%);
+    }
+    @media only screen and (min-width: 1000px) {
+      transform: scale(2.75) translate(-50%, -50%);
+    }
   }
   .logo-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
     @media only screen and (min-width: 800px) {
       display: flex;
     }
@@ -66,17 +77,20 @@ body {
     color: $black;
     letter-spacing: -0.05em;
     font-weight: 200;
-    font-size: 1.2em;
+    font-size: 2.4em;
     @media only screen and (min-width: 380px) {
       font-size: 3em;
     }
     @media only screen and (min-width: 800px) {
       position: relative;
-      font-size: 4em;
+      font-size: 3.5em;
       top: auto;
       left: auto;
       transform: none;
       margin-left: -1.422em;
+    }
+    @media only screen and (min-width: 1000px) {
+      font-size: 4em;
     }
     .line-1, .line-2, .line-3, .line-4 {
       display: block;
@@ -109,22 +123,24 @@ nav {
 }
 
 .content-section {
-
-  padding: 0.75em 2em;
-  @media only screen and (min-width: 800px) {
-    display: flex;
-    padding: 0.75em 3em;
+  .content-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0.75em 1em;
+    @media only screen and (min-width: 500px) {
+      padding: 0.75em 2em;
+    }
+    @media only screen and (min-width: 800px) {
+      display: flex;
+      padding: 0.75em 3em;
+    }
   }
   .title {
     @media only screen and (min-width: 800px) {
       width: 40%;
     }
     h2 {
-      text-transform: uppercase;
-      font-size: 2.5em;
-      font-weight: normal;
-      letter-spacing: -0.02em;
-      margin: 0.5em 0;
+      @include s3;
     }
   }
   .body {
@@ -132,17 +148,20 @@ nav {
       width: 60%;
     }
     p {
-      font-family: "FTMade", serif;
-      font-size: 1.375em;
-      line-height: 1.4;
-      margin: 1em 0;
+      @include s1;
     }
   }
 }
 
 .list {
-  padding: 0.75em 2em;
-  @media only screen and (min-width: 700px) {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0.75em 1em;
+  @media only screen and (min-width: 500px) {
+    padding: 0.75em 2em;
+  }
+  @media only screen and (min-width: 800px) {
     padding: 0.75em 3em;
     margin-bottom: 2em;
   }
@@ -163,8 +182,11 @@ nav {
         width: 30%;
         content: counter(step-counter);
         font-family: "FTBase", sans-serif;
-        font-size: 4em;
+        font-size: 3em;
         font-weight: 200;
+        @media only screen and (min-width: 500px) {
+          font-size: 4em;
+        }
         @media only screen and (min-width: 800px) {
           position: absolute;
           left: 0;
@@ -172,19 +194,11 @@ nav {
         }
       }
       h3 {
-        font-family: "FTBase", sans-serif;
-        font-weight: 700;
-        text-transform: uppercase;
-        font-size: 1.4em;
-        letter-spacing: 0.025em;
-        line-height: 1.25;
-        margin-top: 0.5em;
+        @include s2;
       }
       p {
-        font-family: "FTMade", serif;
-        font-size: 1.375em;
-        line-height: 1.4;
-        margin: 1em 0;
+        @include s1;
+        margin-top: 0.75em;
       }
     }
   }
@@ -197,48 +211,60 @@ nav {
       width: 60%;
     }
     p {
-      font-family: "FTBase", sans-serif;
-      font-size: 2.25em;
-      line-height: 1.4;
-      margin: 0.375em 0 1em;
+      @include s4;
     }
   }
 }
 
 #sign-up {
-  background-color: $yellow;
+  background: $yellow;
   a {
-    display: inline-block;
+    display: block;
+    width: 100%;
     background: $black;
     padding: 1em 2em 1.2em;
     border-radius: 6px;
     color: $white;
     font-family: "FTBase", sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
     font-size: 0.875em;
     letter-spacing: 0.025em;
     line-height: 1.25;
-    margin-top: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
     text-decoration: none;
+    margin-top: 0.5em;
+    @media only screen and (min-width: 500px) {
+      display: inline-block;
+      width: auto;
+    }
   }
 }
 
-.footer-wrapper {
+footer {
   background: $yellow;
-  padding: 2em;
   overflow: hidden;
 }
 
-footer {
-  border-top: 1px solid $black;
-  padding: 1.5em 0 0;
-  font-family: "FTBase", sans-serif;
-  font-size: 1.125em;
-  font-weight: 500;
-  a {
-    color: $black;
-    text-decoration: none;
-    border-bottom: 1px solid $black;
+.footer-wrapper {
+  padding: 1.5em 2em 2em;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.5em 1em 1.25em;
+  @media only screen and (min-width: 500px) {
+    padding: 1.5em 2em 2em;
+  }
+  @media only screen and (min-width: 800px) {
+    padding: 1.5em 3em 2em;
+  }
+  .footer-inner {
+    border-top: 1px solid $black;
+    padding-top: 1em;
+    @include s5;
+    a {
+      color: $black;
+      text-decoration: none;
+      border-bottom: 1px solid $black;
+    }
   }
 }

@@ -8,9 +8,9 @@ order: 1
 include: sections/two-column.html
 ---
 
-We, the undersigned charitable foundations, recognise that the growing climate emergency is a serious risk to the pursuit of our charitable aims.
+UK charitable foundations provide more than £4bn of funding every year to good causes, ranging from medical research to the relief of poverty.
 
-All foundations, whatever our charitable mission and field of expertise, can play a part in addressing the causes of climate change and supporting adaptation to its effects.  
+We, the undersigned charitable foundations, recognise that the growing climate emergency is a serious risk to the pursuit of our charitable aims. All foundations, whatever our charitable mission and field of expertise, can play a part in addressing the causes of climate change and supporting adaptation to its effects.  
 
 The necessary changes to sharply reduce emissions and to adapt to climate change bring opportunities for new industries, good jobs, a cleaner environment, and improved wellbeing, but also involve significant costs. Funders can help to bring about these changes, to ensure that everyone has access to opportunities arising from the transition to a low carbon economy, and to ensure that the costs are not disproportionately borne by those who are least able to pay.
 

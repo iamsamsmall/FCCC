@@ -17,3 +17,15 @@ Gower St
 Frederick Mulder Foundation
 
 Paul Hamlyn Foundation
+
+Zennström Philanthropies
+
+JA Clark Trust
+
+Friends Provident Foundation
+
+Local Trust
+
+Lankelly Chase Foundation
+
+Barrow Cadbury Trust

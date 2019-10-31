@@ -29,3 +29,6 @@ Local Trust
 Lankelly Chase Foundation
 
 Barrow Cadbury Trust
+
+Arcadia
+*A charitable fund of Lisbet Rausing and Peter Baldwin*

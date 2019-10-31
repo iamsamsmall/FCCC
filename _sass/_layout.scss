@@ -213,6 +213,10 @@ nav {
     }
     p {
       @include s4;
+      em {
+        display: block;
+        @include s6;
+      }
     }
   }
 }

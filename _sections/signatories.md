@@ -32,3 +32,7 @@ Barrow Cadbury Trust
 
 Arcadia
 *A charitable fund of Lisbet Rausing and Peter Baldwin*
+
+Joseph Rowntree Charitable Trust
+
+Thirty Percy

@@ -16,7 +16,7 @@
 title: Funder Commitment on Climate Change
 description: >- # this means to ignore newlines until "baseurl:"
   Foundations committed to doing their bit to adapt to climate change
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fundercommitmentclimatechange.org" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings

@@ -1,7 +1,6 @@
 ---
 title: Signatories
 order: 3
-# Specify the layout for this section
 include: sections/two-column.html
 ---
 Esmée Fairbairn Foundation
@@ -32,5 +31,3 @@ _A charitable fund of Lisbet Rausing and Peter Baldwin_
 Joseph Rowntree Charitable Trust
 
 Thirty Percy
-
-Test Foundation

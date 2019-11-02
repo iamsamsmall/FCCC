@@ -1,5 +1,8 @@
 ---
 title: Points
+order: 2
+# Specify the layout for this section
+include: sections/list.html
 ---
 
 1. ### Educate and learn

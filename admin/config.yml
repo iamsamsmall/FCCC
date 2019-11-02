@@ -12,6 +12,8 @@ collections:
     folder: "_sections" # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
     delete: false # Stop users from deleting
+    editor:
+      preview: false # Hide preview
     slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}

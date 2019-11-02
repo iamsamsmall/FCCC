@@ -1,13 +1,6 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Signatories
-order: 3
-# Specify the layout for this section
-include: sections/two-column.html
 ---
-
 Esmée Fairbairn Foundation
 
 Solberga Foundation
@@ -31,8 +24,10 @@ Lankelly Chase Foundation
 Barrow Cadbury Trust
 
 Arcadia
-*A charitable fund of Lisbet Rausing and Peter Baldwin*
+_A charitable fund of Lisbet Rausing and Peter Baldwin_
 
 Joseph Rowntree Charitable Trust
 
 Thirty Percy
+
+Test Foundation

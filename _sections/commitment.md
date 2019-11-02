@@ -16,4 +16,4 @@ The necessary changes to sharply reduce emissions and to adapt to climate change
 
 The scale of the climate threat, and the scale of the solutions needed, means that this is an issue for all parts of civil society, and for all charitable foundations. Climate change is a health issue, an equality issue, an educational issue, an economic issue, a cultural issue, a scientific issue, a security issue and a local community issue, as well as an environmental issue. Children and young people are showing bold and effective leadership. There is a special responsibility on foundations, whose assets are held for the public good, to use their resources and independence to rise to the challenge.
 
-We, the undersigned chartitable foundations, commit to:
+We, the undersigned charitable foundations, commit to:

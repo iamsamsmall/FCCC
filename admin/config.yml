@@ -2,7 +2,7 @@ backend:
   name: github
   repo: iamsamsmall/fccc
   branch: netlify # Branch to update (optional; defaults to master)
-  site_domain: distracted-aryabhata-6f710f.netlify.com
+  site_domain: fundercommitmentclimatechange.org
 
 media_folder: "assets/uploads"
 

@@ -33,3 +33,11 @@ Joseph Rowntree Charitable Trust
 Thirty Percy
 
 The Blagrave Trust
+
+Heathrow Community Trust
+
+Power to Change
+
+David Brownlow Charitable Foundation
+
+Polden-Puckham Charitable Foundation

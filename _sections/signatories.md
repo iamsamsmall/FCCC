@@ -41,3 +41,7 @@ Power to Change
 David Brownlow Charitable Foundation
 
 Polden-Puckham Charitable Foundation
+
+World Habitat
+
+Kreitman Foundation

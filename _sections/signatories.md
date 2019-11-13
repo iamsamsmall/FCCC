@@ -45,3 +45,5 @@ Polden-Puckham Charitable Foundation
 World Habitat
 
 Kreitman Foundation
+
+Sir Walter St John's Educational Charity

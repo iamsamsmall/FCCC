@@ -51,3 +51,5 @@ Sir Walter St John's Educational Charity
 Global Greengrants Fund UK
 
 MCS Charitable Foundation
+
+The Samworth Foundation

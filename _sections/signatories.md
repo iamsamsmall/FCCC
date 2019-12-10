@@ -57,3 +57,9 @@ The Samworth Foundation
 John Ellerman Foundation
 
 Bulb Foundation
+
+Hagan Family Foundation
+
+Network for Social Change Charitable Trust
+
+Taurus Foundation

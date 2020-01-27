@@ -25,8 +25,7 @@ Lankelly Chase Foundation
 
 Barrow Cadbury Trust
 
-Arcadia
-_A charitable fund of Lisbet Rausing and Peter Baldwin_
+Arcadia *A charitable fund of Lisbet Rausing and Peter Baldwin*
 
 Joseph Rowntree Charitable Trust
 
@@ -63,3 +62,7 @@ Hagan Family Foundation
 Network for Social Change Charitable Trust
 
 Taurus Foundation
+
+Guy's and St Thomas' Charity
+
+Comic Relief

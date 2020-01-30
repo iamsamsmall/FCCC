@@ -61,8 +61,6 @@ Hagan Family Foundation
 
 Network for Social Change Charitable Trust
 
-Taurus Foundation
-
 Guy's and St Thomas' Charity
 
 Comic Relief

@@ -68,3 +68,5 @@ Comic Relief
 Cloudesley
 
 OVO Foundation
+
+Community Foundation for Northern Ireland

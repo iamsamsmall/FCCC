@@ -70,3 +70,5 @@ Cloudesley
 OVO Foundation
 
 Community Foundation for Northern Ireland
+
+Sussex Community Foundation

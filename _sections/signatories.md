@@ -72,3 +72,5 @@ OVO Foundation
 Community Foundation for Northern Ireland
 
 Sussex Community Foundation
+
+The Southwood Foundation

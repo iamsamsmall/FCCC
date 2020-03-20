@@ -76,5 +76,3 @@ Sussex Community Foundation
 The Southwood Foundation
 
 Access - The Foundation for Social Investment
-
-Wates Foundation

@@ -78,3 +78,5 @@ The Southwood Foundation
 Access - The Foundation for Social Investment   
 
 Wates Foundation
+
+Wates Family Enterprise Trust

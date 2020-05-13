@@ -82,3 +82,5 @@ Wates Foundation
 Wates Family Enterprise Trust
 
 Treebeard Trust
+
+Quartet Community Foundation

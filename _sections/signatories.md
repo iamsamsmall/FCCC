@@ -84,3 +84,5 @@ Wates Family Enterprise Trust
 Treebeard Trust
 
 Quartet Community Foundation
+
+The Southall Trust

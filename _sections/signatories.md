@@ -100,3 +100,5 @@ Cattanach
 The Pebble Trust
 
 Barchester's Charitable Foundation
+
+The Cole Charitable Trust

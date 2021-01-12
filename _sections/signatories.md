@@ -102,3 +102,11 @@ The Pebble Trust
 Barchester's Charitable Foundation
 
 The Cole Charitable Trust
+
+Foundation Scotland
+
+Corra Foundation
+
+J J Charitable Trust
+
+Oglesby Charitable Trust

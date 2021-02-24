@@ -1,5 +1,5 @@
 ---
-title: Sign up
+title: "Sign up:"
 order: 4
 include: sections/two-column.html
 ---

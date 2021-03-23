@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: iamsamsmall/fccc
+  repo: fundercommitment/fccc
   branch: netlify # Branch to update (optional; defaults to master)
   site_domain: fundercommitmentclimatechange.org
 

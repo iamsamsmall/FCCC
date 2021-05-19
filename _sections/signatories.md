@@ -122,3 +122,9 @@ Arkbound Foundation
 The Albert Hunt Trust
 
 ICAEW Foundation
+
+South Yorkshire's Community Foundation
+
+Bath and West Community Energy Fund (BWCE Fund)
+
+Impact Funding Partners

@@ -132,3 +132,7 @@ Impact Funding Partners
 Jerwood Arts
 
 The Saintbury Trust
+
+Kent Community Foundation
+
+The DWF Foundation
